@@ -39,13 +39,13 @@ Program:
 /*
 ```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: JEEVAGOWTHAM S
-RegisterNumber:  212222230053
+Developed by: JAYAKRISHNAN L B L
+RegisterNumber:  212222230052
 */
 ```
 ## HALF ADDER:
 ```
-module exp33(a,b,s,c);
+module exp3(a,b,s,c);
 input a,b;
 output s,c;
 assign s=a^b;
@@ -55,7 +55,7 @@ endmodule
 
 ## FULL ADDER:
 ```
-module ass3(a,b,c,sum,carry);
+module as3(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 assign sum=a^b^c;
